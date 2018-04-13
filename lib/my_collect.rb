@@ -11,6 +11,6 @@ end
  #end
 
 
-my_collect(collection) do |lang|
+my_collect([]) do |lang|
   lang.upcase
 end
