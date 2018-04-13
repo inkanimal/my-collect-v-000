@@ -7,5 +7,6 @@ def my_collect(collection)
   end
 end
 
-collection([]) {|lang| 
+collection([]) {|lang| lang.upcase
+end
 
