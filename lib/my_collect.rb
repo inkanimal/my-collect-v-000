@@ -11,6 +11,6 @@ end
  #end
 
 collection = ['ruby', 'javascript', 'python', 'objective-c']
-my_collect(collection) do |lang|
+my_collect(language) do |lang|
   lang.upcase
 end
