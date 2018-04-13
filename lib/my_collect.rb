@@ -8,5 +8,5 @@ def my_collect(collection)
 end
 
  my_collect(collection) {|lang| lang.upcase}
-end
+
 
