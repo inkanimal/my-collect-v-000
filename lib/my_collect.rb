@@ -7,7 +7,8 @@ def my_collect(collection)
   end
 end
 
- collection = [] my_collect(collection) do |lang| lang.upcase
+ collection = [] 
+ my_collect(collection) do |lang| lang.upcase
  end
 
 
